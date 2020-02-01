@@ -4,13 +4,18 @@
   "private": true,
   "description": "A helper for League Client.",
   "author": "XavierChanth",
-  "contributors": ["XavierChanth", "Michael-4"],
+  "contributors": [
+    "XavierChanth",
+    "Michael-4"
+  ],
   "main": "build/electron.js",
   "dependencies": {
     "path": "^0.12.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.3.1",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
