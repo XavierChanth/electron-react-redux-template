@@ -2,6 +2,9 @@
   "name": "crank.gg",
   "version": "0.1.0",
   "private": true,
+  "description": "A helper for League Client.",
+  "author": "XavierChanth",
+  "contributors": ["XavierChanth", "Michael-4"],
   "dependencies": {
     "path": "^0.12.7",
     "react": "^16.12.0",
