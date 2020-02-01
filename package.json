@@ -13,9 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build:react": "react-scripts build",
+    "postbuild:react": "node postbuild.js",
+    "build:win": "npm run build:react && electron-packager ./ tutorial-app --platform=win32 --out=./electron-packages --overwrite --ignore=\"/public|/electron-dist|/src|postbuild.js\"",
+    "build:all": "npm run build:react && electron-packager ./ tutorial-app --all --out=./electron-packages --overwrite --ignore=\"/public|/electron-dist|/src|postbuild.js\"",
+    "predist": "npm run build:react",
+    "dist": "electron-builder"
   },
   "eslintConfig": {
     "extends": "react-app"
