@@ -1,7 +1,8 @@
 import React from 'react';
 
 const App = () => {
-  return <h1>Hello World!</h1>;
+  const time = Date.now();
+  return <div>{time}</div>;
 };
 
 export default App;
