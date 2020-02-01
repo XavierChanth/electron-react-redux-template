@@ -1,0 +1,24 @@
+{
+  "windows": {
+    "build": {
+      "appId": "com.electron.tutorialApp",
+      "productName": "Electron Tutorial App",
+      "target": "NSIS",
+      "asar": true,
+      "directories": {
+        "output": "windows-build",
+        "buildResources": "assets"
+      },
+      "nsis": {
+        "allowToChangeInstallationDirectory": "true",
+        "oneClick": false
+      }
+    }
+  },
+  "linux": {
+
+  },
+  "darwin": {
+
+  }
+}
