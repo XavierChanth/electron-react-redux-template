@@ -1,8 +1,8 @@
 {
   "windows": {
     "build": {
-      "appId": "com.electron.tutorialApp",
-      "productName": "Electron Tutorial App",
+      "appId": "com.electron.crankgg",
+      "productName": "Crank.gg",
       "target": "NSIS",
       "asar": true,
       "directories": {
