@@ -5,7 +5,7 @@
   "description": "A helper for League Client.",
   "author": "XavierChanth",
   "contributors": ["XavierChanth", "Michael-4"],
-  "main": "electron.js",
+  "main": "build/electron.js",
   "dependencies": {
     "path": "^0.12.7",
     "react": "^16.12.0",
@@ -16,8 +16,7 @@
     "start": "react-scripts start",
     "build:react": "react-scripts build",
     "postbuild:react": "node postbuild.js",
-    "build:win": "npm run build:react && electron-packager ./ tutorial-app --platform=win32 --out=./electron-packages --overwrite --ignore=\"/public|/electron-dist|/src|postbuild.js\"",
-    "build:all": "npm run build:react && electron-packager ./ tutorial-app --all --out=./electron-packages --overwrite --ignore=\"/public|/electron-dist|/src|postbuild.js\"",
+    "build:win": "npm run build:react && electron-packager ./ crank --platform=win32 --out=./electron-packages --overwrite --ignore=\"/public|/electron-dist|/src|postbuild.js|workspace.code-workspace|.vsls.json|build.config.json|.gitignore\"",
     "predist": "npm run build:react",
     "dist": "electron-builder"
   },
@@ -44,8 +43,8 @@
     "replace-in-file": "^5.0.2"
   },
   "build": {
-    "appId": "com.electron.tutorialApp",
-    "productName": "Electron Tutorial App",
+    "appId": "com.electron.crankgg",
+    "productName": "Crank.gg",
     "target": "NSIS",
     "asar": true,
     "directories": {
