@@ -35,5 +35,19 @@
     "electron-builder": "^22.3.2",
     "electron-packager": "^14.2.0",
     "replace-in-file": "^5.0.2"
+  },
+  "build": {
+    "appId": "com.electron.tutorialApp",
+    "productName": "Electron Tutorial App",
+    "target": "NSIS",
+    "asar": true,
+    "directories": {
+      "output": "windows-build",
+      "buildResources": "assets"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": "true",
+      "oneClick": false
+    }
   }
 }
