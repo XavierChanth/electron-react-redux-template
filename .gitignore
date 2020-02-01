@@ -21,5 +21,9 @@
 .env.production.local
 
 npm-debug.log*
-yarn-debug.log*
+yarn-debug.log*fd
 yarn-error.log*
+
+# Vscode
+*.code-workspace
+.vsls.json
