@@ -5,6 +5,7 @@
   "description": "A helper for League Client.",
   "author": "XavierChanth",
   "contributors": ["XavierChanth", "Michael-4"],
+  "main": "electron.js",
   "dependencies": {
     "path": "^0.12.7",
     "react": "^16.12.0",
