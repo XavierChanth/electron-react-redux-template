@@ -10,6 +10,8 @@
 
 # production
 /build
+/electron-packages
+*-unpacked
 
 # misc
 .DS_Store
