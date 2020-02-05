@@ -1,12 +1,12 @@
 {
-  "name": "crank.gg",
+  "name": "FILL_IN",
   "version": "0.1.0",
   "private": true,
-  "description": "A helper application for League Client.",
+  "description": "FILL_IN",
   "author": "XavierChanth",
   "contributors": [
-    "XavierChanth",
-    "Michael-4"
+    "FILL_IN",
+    "FILL_IN"
   ],
   "main": "build/electron.js",
   "dependencies": {
@@ -49,7 +49,7 @@
   },
   "build": {
     "appId": "com.electron.crankgg",
-    "productName": "Crank.gg",
+    "productName": "FILL_IN",
     "target": "NSIS",
     "asar": true,
     "directories": {
