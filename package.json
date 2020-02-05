@@ -48,7 +48,7 @@
     "replace-in-file": "^5.0.2"
   },
   "build": {
-    "appId": "com.electron.crankgg",
+    "appId": "FILL_IN",
     "productName": "FILL_IN",
     "target": "NSIS",
     "asar": true,
