@@ -1,8 +1,8 @@
 {
   "windows": {
     "build": {
-      "appId": "com.electron.crankgg",
-      "productName": "Crank.gg",
+      "appId": "FILL_IN",
+      "productName": "FILL_IN",
       "target": "NSIS",
       "asar": true,
       "directories": {
